@@ -1,0 +1,16 @@
+@import './SMACSS/base/normalize';
+@import './SMACSS/base/variables';
+@import './SMACSS/base/reset';
+
+@import './SMACSS/layout/layout';
+
+@import './SMACSS/themes/font';
+@import './SMACSS/themes/colors';
+@import './SMACSS/themes/boders';
+
+@import './SMACSS/moduls/menu';
+@import './SMACSS/moduls/banner';
+@import './SMACSS/moduls/search';
+@import './SMACSS/moduls/post';
+@import './SMACSS/moduls/botons';
+@import './SMACSS/moduls/footer';

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header container flex align-center justify-between">
+        <img src="./images/logo.png" alt="logo" class="img-responsive">
+        <nav >
+            <ul class="menu">
+                <li><a class="menu__item--active" href="">Home</a></li>
+                <li><a class="menu__item--active" href="">Espectaculo</a></li>
+                <li><a class="menu__item--active" href="" style="margin-right: 0;">Deportes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <article class="banner__caption container">
+            <h1>Blog Afrianska</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, iusto eum ipsam quia ea nemo quibusdam at tempore dolore perferendis adipisci alias, rerum illum non enim expedita? Numquam, nulla exercitationem.</p>
+        </article>
+    </section>
+    <main class="container">
+        <div class="search">
+            <input type="text" placeholder="Search Article" class="search__input">
+            <i class="material-icons search__icon">search</i>
+        </div>
+        <section class="my-2 border-b-gris-1 ">
+            <h2 class="mb-2 secundary-color">POPULAR</h2>
+            <div class="posts" >
+                <article class="post post-principal">
+                    <img src="./images/img-post-0.png" alt="img-post" class="img-responsive post__img post-principal__img">
+                    <div class="flex direction-column justify-between post-principal__caption">
+                        <header>
+                            <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                            <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                            <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        </header>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post ">
+                    <img src="./images/img-post-1.png" alt="img-post" class="img-responsive post__img">
+                    <div>
+                        <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                        <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post">
+                    <img src="./images/img-post-2.png" alt="img-post" class="img-responsive post__img">
+                    <div>
+                        <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                        <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post">
+                    <img src="./images/img-post-3.png" alt="img-post" class="img-responsive post__img">
+                    <div>
+                        <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                        <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+           <div>
+            <a href="#" class="posts__link">SEE ALL POPULAR ARTICLE</a>
+           </div>
+        </section>
+        <section class="my-2 border-b-gris-1">
+            <h2 class="mb-2 secundary-color">ALL ARTICLE</h2>
+            <div>
+                <article class="post post-secondary">
+                    <img src="./images/img-post-4.png" alt="img-post" class="img-responsive post__img post-secondary__img">
+                    <div class="flex direction-column justify-between">
+                        <header>
+                            <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                            <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        </header>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post post-secondary">
+                    <img src="./images/img-post-5.png" alt="img-post" class="img-responsive post__img post-secondary__img">
+                    <div class="flex direction-column justify-between">
+                        <header>
+                            <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                            <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        </header>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post post-secondary">
+                    <img src="./images/img-post-6.png" alt="img-post" class="img-responsive post__img post-secondary__img"">
+                    <div class="flex direction-column justify-between">
+                        <header>
+                            <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                            <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        </header>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+                <article class="post post-secondary">
+                    <img src="./images/img-post-7.png" alt="img-post" class="img-responsive post__img post-secondary__img"">
+                    <div class="flex direction-column justify-between">
+                        <header>
+                            <h3 class="post__title">Feagiat sodales at nullam tellus</h3>
+                            <p class="post__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iure maiores voluptate nobis, mollitia impedit natus id rem ad officia repellat quasi exercitationem soluta repellendus! Dolore inventore voluptatum dolor soluta?</p>
+                        </header>
+                        <footer class="post__footer">
+                            <div>
+                                <p class=" post__author">Samantha Lethex</p>
+                                <p class="post__note">May 5, 3mi read</p>
+                            </div>
+                            <div>
+                                <i class="material-icons post__footer__icon">bookmark</i>
+                                <i class="material-icons post__footer__icon">share</i>
+                            </div>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <a href="#" class="posts__link">New Post</a>
+        </section>
+    </main>
+    <footer class="footer ">
+       <div class="container">
+        <header class="footer__header">
+            <div>
+                 <h4 class="footer__title">Intersted to  <br> with our team?</h4>
+                 <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt unde delectus accusamus in quibusdam voluptates deserunt neque, corrupti aspernatur vero maxime accusantium architecto consequuntur quisquam aperiam facere, dolor esse quia!</p>
+            </div >
+             <a href="#" class="btn">Let´s Talk</a>
+         </header>
+        <section class="py-1 footer__main">
+             <article class="my-2">
+                 <img src="./images/logo_2.PNG" alt="logo_2" class="img-responsive mb-2">
+                 <ul>
+                     <li class="flex mb-1">
+                         <span class="mr-1 font-bold">A.</span>
+                         <p>Lorem ipsum sit amel, cosmetur <br> afopsjcing elit.</p>
+                     </li>
+                     <li class="flex mb-1">
+                         <span class="mr-1 font-bold">T.</span>
+                         <p>+62-812-7313-4321</p>
+                     </li>
+                     <li class="flex mb-1">
+                         <span class="mr-1 font-bold">E.</span>
+                         <p>hello.aferian@gmail.com</p>
+                     </li>
+                 </ul>
+             </article>
+             <article class="my-2">
+                 <h5 class="footer__subtitle">About US</h5>
+                 <ul >
+                     <li class="my-m1"><a href="" class="footer__link">About</a></li>
+                     <li class="my-m1"><a href="" class="footer__link">What We Do</a></li>
+                     <li class="my-m1"><a href="" class="footer__link">Project</a></li>
+                     <li class="my-m1"><a href="" class="footer__link">How it Work With Us</a></li>
+                 </ul>
+             </article>
+             <article class="my-2">
+                 <h5 class="footer__subtitle">Follow US</h5>
+                 <ul >
+                     <li class="my-m1"><a href="" class="footer__link">Instagram</a></li>
+                     <li class="my-m1"><a href="" class="footer__link">facebook</a></li>
+                     <li class="my-m1"><a href="" class="footer__link">Linkedin</a></li>
+                     <li class="my-m1"><a href="" class="footer__link">Youtube</a></li>
+                 </ul>
+             </article>
+        </section>
+        <p class="footer__credit">2019 Afrianska. All rigths reseved.</p>
+       </div>
+    </footer>
+</body>
+</html>

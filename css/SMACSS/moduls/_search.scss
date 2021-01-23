@@ -1,0 +1,16 @@
+.search{
+    padding: 1em 0;
+    position: relative;
+    &__input{
+        width: 100%;
+        padding: 1em 2.5em ;
+        background-color:  #f4f4f4;
+        border: none;
+        border-radius: 10px;
+    }
+    &__icon{
+        position: absolute;
+        top: 35%;
+        left: 10px;
+    }
+}

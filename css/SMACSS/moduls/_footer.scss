@@ -1,0 +1,52 @@
+.footer{
+    background-color: $color-auxiliar;
+    color: $color-third;
+    border-radius: 0 150px 0 0;
+    font-weight: $font-light;
+    &__header{
+        padding: 2em 0;
+        width: 85%;
+        border-bottom: 1px solid $color-auxiliar-secundary;
+        @media (min-width: 700px){
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__title{
+        font-size: $font-size-xlarge;
+        margin-bottom: .5em;
+        font-weight: $font-normal;
+        line-height: 1.4;
+    }
+    &__text{
+        margin-bottom: 1.5em;
+        line-height: 1.5;
+    }
+    &__subtitle{
+        font-size: 20px;
+        margin-bottom: 1em;
+    }
+    &__link{
+        color: $color-third;
+    }
+    &__credit{
+        opacity: .5;
+        padding-bottom: 1em;
+        font-size: $font-size-small;
+    }
+    &__main{
+        article{
+            @media (min-width: 700px){
+                width: 50%;
+            }
+        }
+        @media (min-width: 700px){
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+        @media (min-width: 1366px){
+            flex-wrap: nowrap;
+        }
+    }
+}
